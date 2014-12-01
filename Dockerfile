@@ -24,8 +24,13 @@ RUN \
 # RUN rm /etc/apparmor.d/rstudio-server
 # EXPOSE 8787
 
-RUN apt-get install -y git
-RUN git clone http://github.com/javimarlop/ocpu-radarplot-sochi.git
+#RUN apt-get install -y git libxml2 libxml2-dev geos geos-dev proj proj-devel gdal gdal-dev
+
+RUN echo "local({r <- getOption('repos');r['CRAN'] <- 'http://cran.rstudio.com/';options(repos = r)})" > /etc/R/Rprofile.site
+
+#r devtools, r png, rgdal, raster
+
+#RUN git clone http://github.com/javimarlop/ocpu-radarplot-sochi.git
 
 # Apache ports (without caching)
 EXPOSE 80
