@@ -5,6 +5,7 @@
 # Run as executable: docker run -t -p 80:8006 -p 443:8007 jeroenooms/opencpu-dev
 # Run in background: docker run -t -d -p 80:8006 -p 443:8007 jeroenooms/opencpu-dev
 # Run with shell: docker run -t -i -p 80:8006 -p 443:8007 jeroenooms/opencpu-dev sh -c 'service opencpu restart && /bin/bash'
+# docker run --privileged -tiv /media/sda6:/opt/sda6 -p 80:8006 -p 443:8007 jeroenooms/opencpu-dev sh -c 'service opencpu restart && /bin/bash'
 
 # Pull base image.
 FROM ubuntu:14.04
