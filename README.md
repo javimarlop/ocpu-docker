@@ -1,7 +1,7 @@
 ocpu-docker
 ===========
 
-**adaptation from https://github.com/jeroenooms/docker**
+*adaptation from https://github.com/jeroenooms/docker*
 
 It is an OpenCPU server and app (https://github.com/javimarlop/ocpu-radarplot-sochi) installed on a Docker machine.
 
