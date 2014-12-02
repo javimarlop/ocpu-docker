@@ -3,7 +3,7 @@ ocpu-docker
 
 *adaptation from https://github.com/jeroenooms/docker*
 
-It is an OpenCPU server and [app](https://github.com/javimarlop/ocpu-radarplot-sochi) installed on a Docker machine. [Docker](https://www.docker.com/) needs to be installed in your OS.
+It is an [OpenCPU](https://www.opencpu.org/) server and [app](https://github.com/javimarlop/ocpu-radarplot-sochi) installed on a Docker machine. [Docker](https://www.docker.com/) needs to be installed in your OS.
 
 # How to run it:
 
